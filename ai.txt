@@ -1,0 +1,13 @@
+How did you determine which piece to play next? Tell us about your “pick next move” algorithm
+    - To determine which piece to play next, it first needs to loop through the ai checker list and find all checkers that has at least one legal move; if there are any jumps available, only the moves with a jump will be considered. Next, it will pick a random ai checker that has at least legal move(jumps are prioritized) and move to a random legal spot if it has more than one legal moves.
+
+How often did your computer program beat you, or your friends, or whoever tested it out for you?
+    - With this simple algorithm, my computer program rarely beats me.
+
+How would you improve it in the future?
+    - I'd like to count at least one more step ahead by predicting the situation after moving a checker to a potential legal spot and compared the results before making the actual move, i.e. multiple jumps are preferred, always avoid a move that will let the player make a jump after, block a potential jump of the player and etc. This way the computer would make a bit "smarter" moves.
+
+Did you attempt to make your computer player smarter than the baseline -- i.e., do something more clever than just pick a random/arbitrary legal move?
+    - At this time no, my computer program only prioritize moves with jumps.
+    
+If so, were you able to accomplish this? Is your computer player as smart as you would like?
