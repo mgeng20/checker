@@ -9,7 +9,7 @@ Game rules: https://www.ultraboardgames.com/checkers/game-rules.php
 1. Install Processing3 IDE https://processing.org/
    - Note: current official version is v4. Please download v3
 2. Setup Python mode https://py.processing.org/
-3. Open /checkers/checkers.pyde with IDE
+3. Open /checkers/checkers.pyde with Processing3 IDE
 4. Click "Run" button
 
 # Previews
